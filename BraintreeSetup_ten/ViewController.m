@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
-  Braintree *braintree = [Braintree braintreeWithClientToken: @"my token"]
+  Braintree *braintree = [Braintree braintreeWithClientToken: @"my token"];
 }
 
 - (void)didReceiveMemoryWarning {
