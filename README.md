@@ -8,7 +8,7 @@ The library was added to a new Objective-C project according to the [Manual Inte
 
 ## Setup
 
-After cloning the repo pull the braintree_ios submodule by running this the project root directory.
+After cloning the repo pull the braintree_ios submodule by running this in the project root directory.
 
     git submodule init
     git submodule update
