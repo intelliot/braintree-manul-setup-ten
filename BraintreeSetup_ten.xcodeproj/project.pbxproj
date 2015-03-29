@@ -264,6 +264,16 @@
 		2B76DE9F1AC8AB3300806254 /* BTVenmoAppSwitchRequestURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B76DD991AC8AB3300806254 /* BTVenmoAppSwitchRequestURL.m */; };
 		2B76DEA01AC8AB3300806254 /* BTVenmoAppSwitchReturnURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B76DD9A1AC8AB3300806254 /* BTVenmoAppSwitchReturnURL.h */; };
 		2B76DEA11AC8AB3300806254 /* BTVenmoAppSwitchReturnURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B76DD9B1AC8AB3300806254 /* BTVenmoAppSwitchReturnURL.m */; };
+		2B76DEA31AC8AB8100806254 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEA21AC8AB8100806254 /* AVFoundation.framework */; };
+		2B76DEA51AC8AB8700806254 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEA41AC8AB8700806254 /* AudioToolbox.framework */; };
+		2B76DEA71AC8AB8D00806254 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEA61AC8AB8D00806254 /* CoreLocation.framework */; };
+		2B76DEA91AC8AB9200806254 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEA81AC8AB9200806254 /* CoreMedia.framework */; };
+		2B76DEAB1AC8AB9800806254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEAA1AC8AB9800806254 /* Foundation.framework */; };
+		2B76DEAD1AC8AB9E00806254 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEAC1AC8AB9E00806254 /* MessageUI.framework */; };
+		2B76DEAF1AC8ABA600806254 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEAE1AC8ABA600806254 /* MobileCoreServices.framework */; };
+		2B76DEB11AC8ABAB00806254 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEB01AC8ABAB00806254 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2B76DEB31AC8ABB300806254 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEB21AC8ABB300806254 /* SystemConfiguration.framework */; };
+		2B76DEB51AC8ABB800806254 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76DEB41AC8ABB800806254 /* UIKit.framework */; };
 		2BD5702A1AC8AA2200F677C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD570291AC8AA2200F677C0 /* main.m */; };
 		2BD5702D1AC8AA2200F677C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5702C1AC8AA2200F677C0 /* AppDelegate.m */; };
 		2BD570301AC8AA2200F677C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5702F1AC8AA2200F677C0 /* ViewController.m */; };
@@ -647,6 +657,16 @@
 		2B76DD991AC8AB3300806254 /* BTVenmoAppSwitchRequestURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVenmoAppSwitchRequestURL.m; sourceTree = "<group>"; };
 		2B76DD9A1AC8AB3300806254 /* BTVenmoAppSwitchReturnURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVenmoAppSwitchReturnURL.h; sourceTree = "<group>"; };
 		2B76DD9B1AC8AB3300806254 /* BTVenmoAppSwitchReturnURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVenmoAppSwitchReturnURL.m; sourceTree = "<group>"; };
+		2B76DEA21AC8AB8100806254 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2B76DEA41AC8AB8700806254 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2B76DEA61AC8AB8D00806254 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B76DEA81AC8AB9200806254 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2B76DEAA1AC8AB9800806254 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B76DEAC1AC8AB9E00806254 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2B76DEAE1AC8ABA600806254 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2B76DEB01AC8ABAB00806254 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		2B76DEB21AC8ABB300806254 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2B76DEB41AC8ABB800806254 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BD570241AC8AA2200F677C0 /* BraintreeSetup_ten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraintreeSetup_ten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD570281AC8AA2200F677C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BD570291AC8AA2200F677C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -667,6 +687,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B76DEB51AC8ABB800806254 /* UIKit.framework in Frameworks */,
+				2B76DEB31AC8ABB300806254 /* SystemConfiguration.framework in Frameworks */,
+				2B76DEB11AC8ABAB00806254 /* PassKit.framework in Frameworks */,
+				2B76DEAF1AC8ABA600806254 /* MobileCoreServices.framework in Frameworks */,
+				2B76DEAD1AC8AB9E00806254 /* MessageUI.framework in Frameworks */,
+				2B76DEAB1AC8AB9800806254 /* Foundation.framework in Frameworks */,
+				2B76DEA91AC8AB9200806254 /* CoreMedia.framework in Frameworks */,
+				2B76DEA71AC8AB8D00806254 /* CoreLocation.framework in Frameworks */,
+				2B76DEA51AC8AB8700806254 /* AudioToolbox.framework in Frameworks */,
+				2B76DEA31AC8AB8100806254 /* AVFoundation.framework in Frameworks */,
 				2B76DE2F1AC8AB3300806254 /* libPayPalMobile-BT.a in Frameworks */,
 				2B76DE051AC8AB3300806254 /* libDeviceCollectorLibrary.a in Frameworks */,
 			);
@@ -1293,6 +1323,16 @@
 		2BD5701B1AC8AA2200F677C0 = {
 			isa = PBXGroup;
 			children = (
+				2B76DEB41AC8ABB800806254 /* UIKit.framework */,
+				2B76DEB21AC8ABB300806254 /* SystemConfiguration.framework */,
+				2B76DEB01AC8ABAB00806254 /* PassKit.framework */,
+				2B76DEAE1AC8ABA600806254 /* MobileCoreServices.framework */,
+				2B76DEAC1AC8AB9E00806254 /* MessageUI.framework */,
+				2B76DEAA1AC8AB9800806254 /* Foundation.framework */,
+				2B76DEA81AC8AB9200806254 /* CoreMedia.framework */,
+				2B76DEA61AC8AB8D00806254 /* CoreLocation.framework */,
+				2B76DEA41AC8AB8700806254 /* AudioToolbox.framework */,
+				2B76DEA21AC8AB8100806254 /* AVFoundation.framework */,
 				2BD570261AC8AA2200F677C0 /* BraintreeSetup_ten */,
 				2BD570401AC8AA2200F677C0 /* BraintreeSetup_tenTests */,
 				2B76DC131AC8AB1200806254 /* Braintree */,
