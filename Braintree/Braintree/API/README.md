@@ -83,7 +83,7 @@ AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager]
 Now that you have a client token, you're ready to start:
 
 ```
-#import <Braintree/Braintree-API.h>
+#import "Braintree-API.h"
 BTClient *braintree = [[BTClient alloc] initWithClientToken:CLIENT_TOKEN_FROM_SERVER];
 ```
 

@@ -1,14 +1,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <Braintree/Braintree-API.h>
-#import <Braintree/Braintree-PayPal.h>
-#import <Braintree/Braintree-Payments-UI.h>
-#import <Braintree/Braintree-Payments.h>
+#import "Braintree-API.h"
+#import "Braintree-PayPal.h"
+#import "Braintree-Payments-UI.h"
+#import "Braintree-Payments.h"
 
-#import <Braintree/BTDropInViewController.h>
-#import <Braintree/BTPaymentButton.h>
-#import <Braintree/BTClientCardTokenizationRequest.h>
+#import "BTDropInViewController.h"
+#import "BTPaymentButton.h"
+#import "BTClientCardTokenizationRequest.h"
 
 /// The `Braintree` class is the front door to the Braintree SDK for iOS. It contains
 /// everything you need to easily start accepting payments in your mobile app.

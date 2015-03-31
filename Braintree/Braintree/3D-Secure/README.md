@@ -25,7 +25,7 @@ Braintree's 3D Secure implementation must be initialized with a credit card and 
 
 To kick-off the 3D Secure flow, utilize `BTThreeDSecure`, which offers a high-level API around the so-called "lookup" and "authentication" steps: 
 
-1. Import the 3D Secure code with `#import <Braintree/Braintree-3D-Secure.h>`
+1. Import the 3D Secure code with `#import "Braintree-3D-Secure.h"`
 2. Initialize *and retain* an instance of `BTThreeDSecure`
 3. Call one of the `verify…` methods, it is the caller's responsibility to retain the instance of `BTThreeDSecure`
 4. Your delegate may receive a request to present a view controller, which you must present modally
